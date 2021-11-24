@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma, Verdana, sans-serif;
+}
+header{
+    background-color: rgb(91, 26, 212);
+}
+
+.nav-bar{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+nav > a{
+    margin-right: 15px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    background-color: rgb(221, 76, 50);
+    padding: 10px 30px;
+    border: none;
+}
+.header-content{
+    height: calc(80vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-content .left-div{
+    margin-right: 80px;
+}
+.header-content .left-div h1{
+    color: white;
+}
+.watch-btn{
+    background-color: rgb(221, 76, 50);
+    padding: 10px 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+/* Main content area  */
+.card-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card{
+    width: 300px;
+    height: fit-content;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 5px 5px 20px rgb(216, 214, 214), -5px -5px 20px rgb(216, 214, 214);
+    padding: 10px;
+}
+.card h1{
+    font-size: 1.5rem;
+}
+.card p{
+    color: rgb(100, 99, 99);
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.card-content img{
+    width: 100%;
+    height: auto;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+.footer-left{
+    width: 30%;
+}
+.footer-left h1{
+    font-size: 2.5rem;
+}
+.footer-content p{
+    color: rgb(100, 99, 99);
+}
+
+
+/* Footer content area  */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+footer > section{
+    margin-bottom: 20px;
+}
+.social-icons{
+    width: 50px;
+    height: auto;
+}
+
+
+
+
+/* Mobile responsiveness */
+
+
+
+
+
+
+
+/* General element property */
+img{
+    width: 500px;
+    max-width: 670px;
+    height: auto;
+
+}
+h1{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+.logo{
+    width: 90%;
+}
