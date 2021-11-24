@@ -121,7 +121,43 @@ footer > section{
 
 
 /* Mobile responsiveness */
+@media screen and (max-width: 768px) {
 
+    /* Header area  */
+    .nav-bar{
+        display: none;
+    }
+    .header-content{
+        height: 110vh;
+        flex-direction: column;
+    }
+    .left-div{
+        margin-bottom: 50px;
+    }
+
+    /* Main content area  */
+    .card-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 25rem;
+        margin: 20px;
+    }
+
+    .footer-content{
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .footer-content div{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .footer-content img{
+        width: 100%;
+    }
+    
+}
 
 
 
